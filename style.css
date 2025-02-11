@@ -6,52 +6,29 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   background-color: #eae2b7;
-  text-align: center;
+
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1{
-color: black;
-text-align: center;
-margin: 0 auto;
-display: block;
-font-family: "Times New Roman";
-font-size: 30px;
-}
 
-h2{
-color: red;
-text-align: center;
-font-family: "Times New Roman";
-font-size: 25px;
-margin: 1.5em auto;
-display: block;
-}
-
+h1,
+h2,
 h3 {
-  color: blue;
+  font-family: "Playfair Display", Times, serif;
   text-align: center;
-  font-family: "Times New Roman";
-  font-size: 20px;
-  margin: 0 auto;
-  display: block;
 }
+
+
 
 article {
   padding: 50px 0;
 }
 
-article div, ul, ol {
+article div {
   text-align: center;
   width: 100%;
-  list-style-position: inside;
-  padding-left: 0;
 }
 
-ul li, ol li {
-  text-align: center;
-  margin: 10px 0;
-}
 
 p {
   line-height: 1.5;
@@ -80,6 +57,10 @@ hr {
 .image-circle {
   border-radius: 50%;
   border: 2px solid #003049;
+}
+
+header, footer {
+  text-align: center;
 }
 
 /* Link Colors */
